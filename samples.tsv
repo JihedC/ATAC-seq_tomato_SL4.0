@@ -1,0 +1,4 @@
+sampleID	condition	type	R1	R2
+DN1KO1	WT	mESC	/exports/humgen/jihed/ATAC_Veronica/DN1_KO_rep1_1.fastq.gz	/exports/humgen/jihed/ATAC_Veronica/DN1_KO_rep1_2.fastq.gz
+DN1WT1	WT	mESC	/exports/humgen/jihed/ATAC_Veronica/DN1_WT_rep1_1.fastq.gz	/exports/humgen/jihed/ATAC_Veronica/DN1_WT_rep1_2.fastq.gz
+DN1WT2	KO	mESC	/exports/humgen/jihed/ATAC_Veronica/DN1_WT_rep2_1.fastq.gz	/exports/humgen/jihed/ATAC_Veronica/DN1_WT_rep2_2.fastq.gz
