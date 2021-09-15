@@ -10,8 +10,7 @@ BED="/exports/humgen/jihed/genomes/annotation"
 
 computeMatrix \
     scale-regions \
-    -S $BIGWIG/DN1WT1.bw \
-    $BIGWIG/ImmegenDN1A.bw \
+    -S $BIGWIG/ImmegenDN1A.bw \
     $BIGWIG/ImmegenDN1B.bw \
     -R $BED/gencode.vM27.annotation.gtf \
     --afterRegionStartLength 5000 \
@@ -22,6 +21,6 @@ computeMatrix \
     --skipZeros \
     -o DN1_ATAC_Veronica.gz
 
-plotProfile --matrixFile DN1_ATAC_Veronica.gz --perGroup --outFileName profile_plot_DN1_ATAC_Veronica.pdf
+plotProfile --matrixFile DN1_ATAC_Veronica.gz --perGroup --outFileName profile_plot_DN1_ATAC_Immgen.pdf
 
-plotHeatmap --matrixFile DN1_ATAC_Veronica.gz --outFileName heatmap_plot_DN1_ATAC_Veronica.pdf --colorMap Reds
+plotHeatmap --matrixFile DN1_ATAC_Veronica.gz --outFileName heatmap_plot_DN1_ATAC_Immgen.pdf --colorMap Reds
