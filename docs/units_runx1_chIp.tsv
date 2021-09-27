@@ -1,0 +1,9 @@
+sample	fq1	fq2	condition
+DN1input1	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195534_T1.fastq.gz		control
+Runx1DN3A	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195539_T1.fastq.gz		treatment
+DN3input1	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195540_T1.fastq.gz		control
+Runx1DN1B	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195533_T1.fastq.gz		treatment
+Runx1DN1B	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195535_T1.fastq.gz		treatment
+DN1input2	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195536_T1.fastq.gz		control
+Runx1DN3B	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195537_T1.fastq.gz		treatment
+DN3input2	/exports/humgen/jihed/Kernfeld_scRNA_thymus/nextflow/results/fastq/SRX3195538_T1.fastq.gz		control
