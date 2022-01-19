@@ -1,0 +1,8 @@
+﻿SampleID;Tissue;Factor;Condition;Treatment;Replicate;bamReads;Peaks;PeakCaller
+WTAJul;thymus;Morc3;WT;July;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1WTAJul.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1WTAJul_peaks.narrowPeak;macs
+WTBJul;thymus;Morc3;WT;July;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1WTBJul.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1WTBJul_peaks.narrowPeak;macs
+WTDec;thymus;Morc3;WT;Dec;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1WTDec1.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1WT_Dec_peaks.narrowPeak;macs
+KO1Jul;thymus;Morc3;KO;July;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KO1Jul.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1KO1_Jul_peaks.narrowPeak;macs
+KO2Jul;thymus;Morc3;KO;July;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KO2Jul.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1KO2_Jul_peaks.narrowPeak;macs
+KO3Jul;thymus;Morc3;KO;July;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KO3Jul.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1KO3Jul_peaks.narrowPeak;macs
+KODec;thymus;Morc3;KO;Dec;1;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KODec1.sorted.bam;/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2/DN1KO1_Dec_peaks.narrowPeak;macs
