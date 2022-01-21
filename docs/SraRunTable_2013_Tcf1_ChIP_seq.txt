@@ -1,0 +1,7 @@
+Run	AGE	Assay Type	Genotype	GEO_Accession (exp)	Instrument	LibraryLayout	source_name	SRA Study	strain	Antibody	antibody_provider	antibody_catalog	antibody_lot	antibody_vendor
+SRR1046655	4-6 weeks	ChIP-Seq	"CD4Cre;CtnnbdEx3fl/fl ('CAT')"	GSM1285796	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6	Tcf1	antiserum provided by Dr. Kawamoto			
+SRR1046656	4-6 weeks	ChIP-Seq	"CD4Cre;CtnnbdEx3fl/fl ('CAT')"	GSM1285797	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6					
+SRR1046657	4-6 weeks	ChIP-Seq	"CD4Cre;CtnnbdEx3fl/fl ('CAT')"	GSM1285798	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6	H3K4me3		07-473	dam1661080	Millipore
+SRR1046658	4-6 weeks	ChIP-Seq	"CD4Cre;CtnnbdEx3fl/fl ('CAT')"	GSM1285799	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6	none\, input				
+SRR846897	4-6 weeks	ChIP-Seq	WT	GSM1133644	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6	Tcf1	antiserum provided by Dr. Kawamoto			
+SRR846898	4-6 weeks	ChIP-Seq	WT	GSM1133645	Illumina Genome Analyzer II	SINGLE	thymus	SRP022127	C57BL/6	none\, input				

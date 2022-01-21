@@ -1,0 +1,55 @@
+# HOMER Differential Peaks
+# Original Peak File = /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/consistent_WT_KO_merged_DN1_peaks.txt
+# Peak File Tag Directory = /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1WT
+# Background Tag Directory = /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KO
+#
+# Mode = Peaks enriched over background
+# Differential peaks = 36
+# Fraction of original peaks = 0.13%
+# Original number of peaks = 28105
+# Size of region used to count tags = given peak sizes (-fixed)
+# Fold change cutoff = 4.00
+# Poisson p-value cutoff = 1.00e-04
+# strand = 2 (tags counted on 0=+strand, 1=-strand, 2=both strands)
+# peak directory tagAdjust = 66
+# background directory tagAdjust = 190
+#
+# cmd = getDifferentialPeaks /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/consistent_WT_KO_merged_DN1_peaks.txt /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1WT /exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1KO
+#
+#PeakID	chr	start	end	strand	score	focus ratio/other	Total Tags	Background Tags	Fold Change vs. Background	p-value
+Merged-chr1-33436412-1	chr1	33436307	33436518	+	0.000	0.000	37.5	4.4	8.52	6.49e-22
+Merged-chr1-57839895-1	chr1	57839780	57840010	+	0.000	0.000	37.5	8.6	4.36	6.52e-13
+Merged-chr2-27367004-1	chr2	27366895	27367114	+	0.000	0.000	46.0	8.8	5.23	9.43e-19
+Merged-chr2-90021653-1	chr2	90021385	90021922	+	0.000	0.000	101.5	24.4	4.16	4.74e-31
+Merged-chr2-146348030-1	chr2	146347806	146348255	+	0.000	0.000	65.0	16.2	4.01	6.16e-20
+Merged-chr2-153045903-1	chr2	153045715	153046091	+	0.000	0.000	102.5	18.0	5.69	2.11e-42
+Merged-chr2-160627597-1	chr2	160627429	160627765	+	0.000	0.000	54.5	7.8	6.99	3.09e-27
+Merged-chr3-21225171-1	chr3	21225025	21225318	+	0.000	0.000	49.5	11.6	4.27	2.83e-16
+Merged-chr3-35680658-2	chr3	35680472	35680938	+	0.000	0.000	26.0	5.4	4.81	1.54e-10
+Merged-chr3-55088504-1	chr3	55088376	55088632	+	0.000	0.000	32.5	3.2	10.16	2.51e-21
+Merged-chr3-104795902-1	chr3	104795756	104796048	+	0.000	0.000	76.0	12.8	5.94	2.48e-33
+Merged-chr3-129930466-1	chr3	129930325	129930607	+	0.000	0.000	37.5	9.0	4.17	2.38e-12
+Merged-chr5-16445261-1	chr5	16445142	16445380	+	0.000	0.000	92.5	18.4	5.03	2.37e-34
+Merged-chr5-144815009-1	chr5	144814907	144815112	+	0.000	0.000	43.0	5.4	7.96	2.66e-24
+Merged-chr6-55294934-1	chr6	55294829	55295039	+	0.000	0.000	68.0	15.4	4.42	6.02e-23
+Merged-chr6-129030536-1	chr6	129030317	129030755	+	0.000	0.000	122.5	24.8	4.94	2.87e-44
+Merged-chr7-47028801-1	chr7	47028707	47028896	+	0.000	0.000	34.0	7.8	4.36	3.83e-12
+Merged-chr8-14306929-1	chr8	14306797	14307062	+	0.000	0.000	15.0	3.0	5.00	6.71e-07
+Merged-chr10-26358981-1	chr10	26358672	26359291	+	0.000	0.000	68.5	15.8	4.34	2.32e-22
+Merged-chr10-39641004-1	chr10	39640900	39641108	+	0.000	0.000	47.5	10.8	4.40	3.79e-16
+Merged-chr11-33088537-1	chr11	33088335	33088739	+	0.000	0.000	80.0	14.8	5.41	2.68e-32
+Merged-chr11-96822852-1	chr11	96822737	96822967	+	0.000	0.000	92.0	13.2	6.97	2.16e-45
+Merged-chr12-17674615-1	chr12	17674432	17674798	+	0.000	0.000	43.5	8.4	5.18	2.55e-17
+Merged-chr12-19387855-1	chr12	19387499	19388211	+	0.000	0.000	78.5	18.6	4.22	1.02e-24
+Merged-chr12-23800782-1	chr12	23800504	23801061	+	0.000	0.000	55.5	7.0	7.93	2.49e-30
+Merged-chr12-111853372-1	chr12	111853235	111853510	+	0.000	0.000	58.5	14.4	4.06	4.81e-18
+Merged-chr13-35035773-1	chr13	35035533	35036013	+	0.000	0.000	65.5	15.2	4.31	2.61e-21
+Merged-chr13-38948237-1	chr13	38948045	38948430	+	0.000	0.000	86.0	16.2	5.31	4.90e-34
+Merged-chr13-83458869-1	chr13	83458700	83459038	+	0.000	0.000	126.5	25.2	5.02	2.27e-46
+Merged-chr14-8251220-1	chr14	8251105	8251335	+	0.000	0.000	65.5	13.4	4.89	4.22e-24
+Merged-chr14-57972308-1	chr14	57972096	57972521	+	0.000	0.000	74.0	16.2	4.57	1.14e-25
+Merged-chr14-69040272-1	chr14	69040143	69040401	+	0.000	0.000	29.0	3.8	7.63	1.89e-16
+Merged-chr15-42100892-1	chr15	42100802	42100983	+	0.000	0.000	43.0	6.8	6.32	1.37e-20
+Merged-chr15-67103726-1	chr15	67103520	67103933	+	0.000	0.000	115.5	14.0	8.25	2.08e-63
+Merged-chr18-5059193-1	chr18	5059045	5059342	+	0.000	0.000	64.0	11.4	5.61	4.71e-27
+Merged-chr18-14438512-1	chr18	14438389	14438636	+	0.000	0.000	43.0	7.2	5.97	1.09e-19

@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --partition=all
-#SBATCH --job-name annotate_peaks_homer
+#SBATCH --job-name annotate_peaks_diffbind
 #SBATCH --mem=15G
 #SBATCH --time=01:00:00 
-##SBATCH --error=annotate_peaks_homer.%J.err ##if not defined, redirected to standard output.
-#SBATCH --output=annotate_peaks_homer.%J.out
+##SBATCH --error=annotate_peaks_diffbind.%J.err ##if not defined, redirected to standard output.
+#SBATCH --output=annotate_peaks_diffbind.%J.out
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=j.chouaref@lumc.nl
 

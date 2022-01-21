@@ -6,11 +6,17 @@
 #SBATCH --mem=20000
 
 BIGWIG="/exports/humgen/jihed/bigwig_for_analysis/atac_data/DN1_Veronica"
-BED="/exports/humgen/jihed/genomes/annotation"
+BED="/exports/humgen/jihed/mm10"
 
 computeMatrix \
     scale-regions \
-    -S $BIGWIG/DN1WT2.bw \
+    -S $BIGWIG/DN1KO1Jul_rpkm.bw \
+    $BIGWIG/DN1KO2Jul_rpkm.bw \
+    $BIGWIG/DN1KO3Jul_rpkm.bw \
+    $BIGWIG/DN1KODec1_rpkm.bw \
+    $BIGWIG/DN1WTAJul_rpkm.bw \
+    $BIGWIG/DN1WTBJul_rpkm.bw \
+    $BIGWIG/DN1WTDec1_rpkm.bw \
     -R $BED/gencode.vM27.annotation.gtf \
     --afterRegionStartLength 5000 \
     --beforeRegionStartLength 5000 \
@@ -18,8 +24,8 @@ computeMatrix \
     --numberOfProcessors 10 \
     --binSize 10 \
     --skipZeros \
-    -o WT2_DN1_ATAC_Veronica.gz
+    -o DN1_ATAC_Veronica.gz
 
-plotProfile --matrixFile WT2_DN1_ATAC_Veronica.gz --perGroup --outFileName profile_plot_WT2_DN1_ATAC_Veronica.pdf
+plotProfile --matrixFile DN1_ATAC_Veronica.gz --perGroup --outFileName profile_plot_DN1_ATAC_Veronica.pdf
 
-plotHeatmap --matrixFile WT2_DN1_ATAC_Veronica.gz --outFileName heatmap_plot_WT2_DN1_ATAC_Veronica.pdf --colorMap Reds
+plotHeatmap --matrixFile DN1_ATAC_Veronica.gz --outFileName heatmap_plot_DN1_ATAC_Veronica.pdf --colorMap Reds
