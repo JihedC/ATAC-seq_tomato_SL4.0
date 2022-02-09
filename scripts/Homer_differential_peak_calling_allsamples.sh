@@ -10,7 +10,7 @@
 module load genomics/ngs/samtools/1.11/gcc-8.3.1
 
 PEAKS="/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/macs2"
-TAGS="/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped"
+TAGS="/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped/DN1_ATAC"
 
 
 #makeTagDirectory /exports/humgen/jihed/ATAC-seq-snakemake/analysis_Veronica_DN1_ATAC/homer/tag_ko \
@@ -23,7 +23,6 @@ TAGS="/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/mapped"
 
 mergePeaks $PEAKS/DN1KO1_Jul_peaks.narrowPeak \
     $PEAKS/DN1KO2_Jul_peaks.narrowPeak \
-    $PEAKS/DN1KO1_Dec_peaks.narrowPeak \
     $PEAKS/DN1WT_Dec_peaks.narrowPeak \
     $PEAKS/DN1WTAJul_peaks.narrowPeak \
     $PEAKS/DN1KO3Jul_peaks.narrowPeak \

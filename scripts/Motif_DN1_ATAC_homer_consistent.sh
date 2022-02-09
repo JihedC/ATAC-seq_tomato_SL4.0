@@ -13,8 +13,8 @@ OUTPUT="/exports/humgen/jihed/Snakemake_ChIP_seq_pipeline/results/motifs"
 
 echo START time : `date`
 
-findMotifsGenome.pl $PEAKS/DN1_KO_More_accessible_Diffbind.annotate.txt $GENOME/mm10.fa $OUTPUT/Homer_consistent_less_accessible_in_KO/ -size given
+findMotifsGenome.pl $PEAKS/ATAC_DN1_KO_more_accessible_consistent.txt $GENOME/mm10.fa $OUTPUT/Homer_consistent_less_accessible_in_KO/ -size given
 
-findMotifsGenome.pl $PEAKS/DN1_KO_less_accessible_Diffbind.annotate.txt $GENOME/mm10.fa $OUTPUT/Homer_consistent_more_accessible_in_KO/ -size given
+findMotifsGenome.pl $PEAKS/ATAC_DN1_KO_less_accessible_consistent.txt $GENOME/mm10.fa $OUTPUT/Homer_consistent_more_accessible_in_KO/ -size given
 
 echo END time : `date`
